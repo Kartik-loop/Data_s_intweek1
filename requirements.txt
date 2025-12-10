@@ -1,0 +1,6 @@
+
+This project uses only built-in standard Python libraries, 
+so no external dependencies are required.
+
+To enforce a minimum Python version (optional, but good practice):
+python>=3.8
