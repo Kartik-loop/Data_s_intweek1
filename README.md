@@ -12,13 +12,13 @@ then uses that information to generate a friendly, personalized welcome message.
 
  Technical Requirements Met
 
-| Requirement | Implementation Details |
+  | Requirement | Implementation Details |
 
   User Input -  Implemented using the `input()` function for all required fields. 
-  Variables -  Four separate variables (`user_name`, `user_age_str`, `user_hobby`, `user_goal`) are used to store user data. 
+  Variables -  Four separate variables (`name`, `age`, `hobby`, `city`) are used to store user data. 
   Display Message - The welcome message is displayed using the `print()` function. 
  Question Count -  The program asks 4 questions, exceeding the minimum of 3. 
- 
+ Friendly Output - Uses *f-strings* to embed user data seamlessly and includes separator lines (`=`) and an emoji (`✨`) for a welcoming output. 
 
 
 
